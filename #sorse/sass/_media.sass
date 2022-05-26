@@ -1,0 +1,186 @@
+
+@media screen and (max-width: 1210px )
+    .quiz-modal
+        padding: 5vh
+    .quiz
+        font-size: 14px
+    .quiz-modal__end-left .arr
+        bottom: 80px
+
+@media screen and (max-width: 990px )
+    .quiz-modal__end-left 
+        .arr
+            display: none
+    html
+        overflow: auto
+    .quiz-page
+        display: block
+
+        &__img
+            width: 100%
+            max-width: 500px
+            background-size: 100%
+            min-height: 5vh
+            background-position: center top
+            margin: 0 auto
+            &::after
+                content: ''
+                display: block
+                width: 100%
+                padding-bottom: 57%
+        &__content
+            min-height: 10px
+            align-items: center
+            width: 100%
+            max-width: 600px
+            margin: 0 auto
+    .quiz-modal
+        padding: 0
+        border: none
+    .quiz-modal__right
+        width: auto
+        position: absolute
+        bottom: 19px
+        left: 10px
+        height: auto
+        background: none
+        box-shadow: none
+        display: flex
+        align-items: flex-end
+        justify-content: flex-end
+        flex-direction: row-reverse
+        padding: 0
+        z-index: 3
+        position: fixed
+        
+        .bonus-items
+            flex-direction: row
+            display: flex
+            justify-content: space-between
+            width: 85px
+            padding: 0
+        .bonus-item
+            background: #d8d7d7
+            width: 40px
+            height: 40px
+            margin: 0
+            padding: 0
+            &__img
+                background-size: 80% 80%
+                background-position: center
+            &::before
+                display: none
+            &::after
+                transform: scale(0.6)
+            b
+                display: none
+    .you-discont
+        padding: 5px
+        padding-right: 17px
+        font-size: 10px
+        height: 40px
+        display: block
+        text-align: left
+        margin-left: 5px
+        p
+            padding-bottom: 3px
+        .arrows
+            bottom: 100%
+            left: 105%
+    .quiz-modal__form
+        border: none
+    .quiz-modal__content
+        width: 100%
+    .step
+        padding: 20px
+        height: auto
+    .radio-image
+        width: calc( 100% / 3 - 10px )
+        margin-bottom: 10px
+        margin-right: 10px
+    .steps
+        height: auto
+        padding-bottom: 85px
+    .quiz-modal__bot
+        position: absolute
+        bottom: 0
+        left: 0
+        width: 100%
+        position: fixed
+        justify-content: flex-end
+        padding: 10px 5%
+        height: 72px
+        z-index: 2
+        background: #fff
+    .step-inputs
+        overflow: hidden
+        height: auto
+    .you-progress__counter
+        display: none
+    .you-progress
+        position: absolute
+        bottom: 0
+        left: 0
+        width: 100%
+    .quiz-modal__form
+        max-height: 1000000px
+        height: auto
+        box-shadow: none
+    .quiz-modal
+        background: #fff
+    .step-inputs-double
+        display: block
+    .radio-input
+        width: 100%
+    .quiz-modal__end
+        .bonus
+            padding-bottom: 20px
+        .flex-sb
+            display: block
+    .quiz-modal__end-right
+        box-shadow: none
+        border: none
+    .quiz-modal__end-left
+        padding: 30px 5% 0
+        width: 100%
+    .quiz-modal__end-right
+        padding-left: 5%
+        padding-right: 5%
+        max-width: 100%
+    .end-form__img
+        margin-bottom: 20px
+    .end-form .btn
+        height: 50px
+@media screen and (max-width: 600px )
+    .radio-image
+        width: calc( 50% - 10px )
+    .popup-success p
+        text-align: center
+
+@media screen and (max-width: 500px )
+    .quiz-page
+        &__content
+            padding-left: 5%
+            padding-right: 5%
+            text-align: center
+        &__title
+            font-size: 22px
+    .bonus__items
+        flex-direction: column
+        align-items: center
+        .bonus-item
+            width: 100%
+            max-width: 200px
+    .bonus
+        text-align: center
+        padding-bottom: 30px
+
+@media screen and (max-width: 400px )
+    .steps-buttons
+        width: auto
+        .btn-next
+            font-size: 0
+            width: 50px
+            margin-left: 5px
+            svg
+                margin: 0

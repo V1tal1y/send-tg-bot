@@ -1,0 +1,138 @@
+html, body, p, h1, h2, h3, h4, ul, article, figure {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1.2;
+  font-size: 16px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn {
+  border: none;
+}
+
+a,
+.btn,
+button,
+button:before,
+button:after {
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn,
+input,
+textarea,
+button,
+.slick-slide {
+  outline: none;
+}
+
+.container {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.quiz {
+  min-height: 100%;
+  font-size: 16px;
+}
+.quiz-page {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #020202;
+}
+.quiz-page__img {
+  width: 58.33333337%;
+  background: url("../img/kuhnia.webp") no-repeat 0 40%;
+  background-size: cover;
+}
+.quiz-page__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 2rem;
+  position: relative;
+}
+.quiz-page__title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.875em;
+  font-weight: bold;
+}
+.quiz-page__bot {
+  position: absolute;
+  bottom: 15px;
+  left: 2rem;
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 940px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .container {
+    width: 740px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    width: 540px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    width: 440px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

@@ -1,0 +1,437 @@
+<!-- @import #sorse/kit/header.kit-->
+
+
+<div class="quiz">
+    <div class="quiz-page">
+        <div class="quiz-page__img"></div>
+        <div class="quiz-page__content">
+            <div class="discount">
+                <b>Ваша знижка</b>
+                <div class="discount__arrows"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" class="arrow"><path d="M5 3.70904e-07L0.757355 4.24265L2.17157 5.65686L5 2.82843L7.82843 5.65686L9.24265 4.24265L5 3.70904e-07Z" fill="#44bc75"></path><path d="M5 4L0.757355 8.24265L2.17157 9.65686L5 6.82843L7.82843 9.65686L9.24265 8.24265L5 4Z" fill="#44bc75"></path></svg></div>
+            </div>
+            <h1 class="quiz-page__title">Дізнайтеся вартість вашої майбутньої кухні після опитування</h1>
+            <p class="quiz-page__sub-title">Отримайте знижку 10% на кухню після опитування. Гарантія 3 роки на кухню; Розтермінування оплати під 0%.</p>
+            <div class="btn btn-yellow">
+                <svg viewBox="0 0 24 24" class="mdi-icon"><path d="M20,12C20,16.42 16.42,20 12,20C7.58,20 4,16.42 4,12C4,7.58 7.58,4 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+                 Дізнатися вартість
+            </div>
+            <div class="bonus">
+                <h3>БОНУСИ ПІСЛЯ ПРОХОДЖЕННЯ ТЕСТУ</h3>
+                <div class="bonus__items">
+                    <div class="bonus-item">
+                        <div class="bonus-item__img" style="background-image: url(img/catalog.png);"></div>
+                        <b>Безкоштовний <br> дизайн-проект</b>
+                    </div>
+                    <div class="bonus-item">
+                        <div class="bonus-item__img" style="background-image: url(img/price.png);"></div>
+                        <b>Безкоштовний <br> виїзд замірника</b>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz-page__bot">
+                <a href="tel:+380680684747">+380680684747</a>
+            </div>
+        </div>
+    </div>
+    <div class="quiz-modal">
+        <form class="quiz-modal__form">
+            <div class="quiz-modal__begin">
+                <div class="flex-sb">
+                    <div class="quiz-modal__content">
+                        <div class="steps">
+                            <div class="step step1 first active" style="display: block;">
+                                <h2>Який стиль кухні вам більше подобається?</h2>
+                                <div class="step-inputs">
+                                    <label class="radio-image">
+                                        <input type="radio" name="s1" value="Дерево (від 15 тис. м.п.)">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s11.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">Дерево (від 15 тис. м.п.)</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s1" value="Акрил (від 15 тис. м.п)">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s12.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">Акрил (від 15 тис. м.п)</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s1" value="Фарба (від 10 тис. м.п.)">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s13.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">Фарба (від 10 тис. м.п.)</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s1" value="Плівка (від 8 тис м.п.)">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s14.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">Плівка (від 8 тис м.п.)</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s1" value="ДСП (від 6 тис. м.п.)">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s15.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">ДСП (від 6 тис. м.п.)</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s1" value="У мене вже є проект">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s16.webp" alt="">
+                                            </span>
+                                        <span class="radio-image__text"> У мене вже є проект</span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="step step2">
+                                <h2>Тип вашої майбутньої кухні?</h2>
+                                <div class="step-inputs">
+                                    <label class="radio-image">
+                                        <input type="radio" name="s2" value="Пряма">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s21.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">Пряма</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s2" value="Г-образна">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s22.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">Г-образна</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s2" value="П-образна">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s23.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">П-образна</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s2" value="З островом">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s24.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">З островом
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="step step3">
+                                <h2>Оберіть подарунок до кухні:</h2>
+                                <div class="step-inputs-double">
+                                    <label class="radio-input">
+                                        <input type="radio" name="s3" value="1 - 3 м.">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            1 - 3 м.
+                                        </span>
+                                    </label>
+                                    <label class="radio-input">
+                                        <input type="radio" name="s3" value="3 - 5 м.">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            3 - 5 м.
+                                        </span>
+                                    </label>
+                                    <label class="radio-input">
+                                        <input type="radio" name="s3" value="5 - 8 м.">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            5 - 8 м.
+                                        </span>
+                                    </label>
+                                    <label class="radio-input">
+                                        <input type="radio" name="s3" value="більше 8 м.">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            більше 8 м.
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="step step4">
+                                <h2>На яку суму ви розраховуєте?</h2>
+                                <div class="step-inputs-double">
+                                    <label class="radio-input">
+                                        <input type="radio" name="s4" value="До 20 000 грн">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            До 20 000 грн
+                                        </span>
+                                    </label>
+                                    <label class="radio-input">
+                                        <input type="radio" name="s4" value="До 50 000 грн">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            До 50 000 грн
+                                        </span>
+                                    </label>
+                                    <label class="radio-input">
+                                        <input type="radio" name="s4" value="До 100 000 грн">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            До 100 000 грн
+                                        </span>
+                                    </label>
+                                    <label class="radio-input">
+                                        <input type="radio" name="s4" value="Від 100 000 грн">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            Від 100 000 грн
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="step step5">
+                                <h2>Коли плануєте замовити кухню?</h2>
+                                <div class="step-inputs-double">
+                                    <label class="radio-input">
+                                        <input type="radio" name="s5" value="Терміново">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            Терміново
+                                        </span>
+                                    </label>
+                                    <label class="radio-input">
+                                        <input type="radio" name="s5" value="Через тиждень">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            Через тиждень
+                                        </span>
+                                    </label>
+                                    <label class="radio-input">
+                                        <input type="radio" name="s5" value="Протягом місяця">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            Протягом місяця
+                                        </span>
+                                    </label>
+                                    <label class="radio-input">
+                                        <input type="radio" name="s5" value="Через кілька місяців">
+                                        <span class="radio-input__block">
+                                            <span class="check"></span>
+                                            Через кілька місяців
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="step step6 last">
+                                <h2>Оберіть подарунок до кухні:</h2>
+                                <div class="step-inputs">
+                                    <label class="radio-image">
+                                        <input type="radio" name="s6" value="Витяжка">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s61.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">Витяжка</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s6" value="Мийка">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s62.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">Мийка</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s6" value="Змішувач">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s63.webp" alt="">
+                                            </span>
+                                            <span class="radio-image__text">Змішувач</span>
+                                        </span>
+                                    </label>
+                                    <label class="radio-image">
+                                        <input type="radio" name="s6" value="Нічого не треба">
+                                        <span class="radio-image__block">
+                                            <span class="check"></span>
+                                            <span class="radio-image__img">
+                                                <img src="img/s64.webp" alt="">
+                                            </span>
+                                            Нічого не треба
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quiz-modal__bot">
+                            <div class="you-progress">
+                                <div class="you-progress__counter">Готово: <b>0%</b></div>
+                                <div class="you-progress__line">
+                                    <div class="line-progress"></div>
+                                </div>
+                            </div>
+                            <div class="steps-buttons">
+                                <div class="btn btn-prev disabled">
+                                    <svg viewBox="0 0 24 24" class="mdi-icon mdi-24px"><title>mdi-arrow-left</title><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+                                </div>
+                                <div class="btn btn-yellow btn-next disabled">
+                                    Далі 
+                                    <svg viewBox="0 0 24 24" class="mdi-icon mdi-24px"><title>mdi-arrow-right</title><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz-modal__right">
+                        <div class="you-discont">
+                            <p>Ваша знижка: </p>
+                            <div class="counter-block">
+                                <div class="counter"><b>0</b>%</div>
+                                <div class="arrows"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" class="arrow arrow_animation"><path d="M5 3.70904e-07L0.757355 4.24265L2.17157 5.65686L5 2.82843L7.82843 5.65686L9.24265 4.24265L5 3.70904e-07Z" fill="#44bc75"></path><path d="M5 4L0.757355 8.24265L2.17157 9.65686L5 6.82843L7.82843 9.65686L9.24265 8.24265L5 4Z" fill="#44bc75"></path></svg></div>
+                                <div class="plus">+2</div>
+                            </div>
+                        </div>
+
+                        <div class="bonus-items">
+                            <div class="bonus-item">
+                                <div class="bonus-item__img" style="background-image: url(img/catalog.png);"></div>
+                                <b>Безкоштовний <br> дизайн-проект</b>
+                            </div>
+                            <div class="bonus-item">
+                                <div class="bonus-item__img" style="background-image: url(img/price.png);"></div>
+                                <b>Безкоштовний <br> виїзд замірника</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quiz-modal__end">
+                <div class="flex-sb">
+                    <div class="quiz-modal__end-left">
+                        <h2>Супер! Ми закріпимо знижку за вашим номером.</h2>
+                        <p>
+                            Ми підберемо для вас кращі пропозиції, і розповімо про них по телефону. <br>
+                            ** Знижка діє протягом 30 днів!**<br>
+                            <i>Після заповнення номеру наш менеджер Вам зателефонує</i>
+                        </p>
+                        <div class="bonus">
+                            <h3>ВАШІ БОНУСИ</h3>
+                            <div class="bonus__items">
+                                <div class="bonus-item">
+                                    <div class="bonus-item__img" style="background-image: url(img/catalog.png);"></div>
+                                    <b>Безкоштовний <br> дизайн-проект</b>
+                                </div>
+                                <div class="bonus-item">
+                                    <div class="bonus-item__img" style="background-image: url(img/price.png);"></div>
+                                    <b>Безкоштовний <br> виїзд замірника</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arr"><svg data-v-2be8f1c4="" width="64" height="64" viewBox="0 0 64 64" enable-background="new 0 0 64 64"><g data-v-2be8f1c4=""><path data-v-2be8f1c4="" d="m63.386,16.193l.002-.002c0.002-0.003 0.004-0.006 0.006-0.01 0.172-0.195 0.298-0.43 0.399-0.678 0.032-0.076 0.053-0.148 0.076-0.225 0.058-0.191 0.094-0.389 0.106-0.596 0.006-0.076 0.018-0.148 0.016-0.226 0-0.04 0.01-0.076 0.008-0.115-0.014-0.239-0.062-0.47-0.136-0.687-0.006-0.023-0.022-0.041-0.03-0.064-0.088-0.239-0.214-0.451-0.363-0.645-0.021-0.027-0.028-0.063-0.05-0.09l-10.311-12.146c-0.789-0.93-2.084-0.948-2.894-0.037-0.808,0.91-0.823,2.402-0.032,3.334l5.558,6.549c-8.121-1.076-16.104,0.633-16.481,0.717-24.646,4.467-42.087,27.227-38.88,50.736 0.159,1.164 1.028,1.992 2.019,1.992 0.106,0 0.212-0.009 0.32-0.027 1.116-0.203 1.878-1.409 1.704-2.696-2.857-20.94 13.056-41.282 35.537-45.358 0.103-0.024 8.351-1.794 16.117-0.574l-8.577,5.093c-1.005,0.598-1.398,2.02-0.881,3.177 0.516,1.159 1.748,1.608 2.756,1.017l13.52-8.028c0.183-0.111 0.347-0.25 0.491-0.411z"></path></g></svg></div>
+                    </div>
+                    <div class="quiz-modal__end-right">
+                        <div class="discount discount-max">
+                            <b>Ваша знижка</b>
+                            10%
+                        </div>
+                        <div class="select-type">
+                            <h3>Який спосіб зв'язку вам зручніший?</h3>
+                            <div class="select-type__list">
+                                <div class="select-type__item" data-val="VIBER">
+                                    <img src="img/soc-vibe.svg" alt="">
+                                    <span>Viber</span>
+                                </div>
+                                <div class="select-type__item" data-val="Телефону">
+                                    <img src="img/soc-phone.svg" alt="">
+                                    <span>Телефон</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="end-form">
+                            <div class="end-form__item">
+                                <img src="img/soc-vibe.svg" alt="" class="end-form__img">
+                                <label>
+                                    ВВЕДІТЬ НОМЕР<div class="soc-name">VIBER</div>
+                                    <input type="tel" class="tel" name="phone" required placeholder="+38 (999) 999-99-99">
+                                </label>
+                                <input type="hidden" value="VIBER" class="type-phone" name="typephone">
+                            </div>
+                            <div class="sel-other">
+                                <div class="sel-other__title">Вибрати інший месенджер</div>
+                            </div>
+                            <button class="btn btn-yellow">
+                                <svg viewBox="0 0 24 24" class="mdi-icon"><path d="M20,12C20,16.42 16.42,20 12,20C7.58,20 4,16.42 4,12C4,7.58 7.58,4 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+                                Отправить результаты
+                            </button>
+                        </div>
+                        <label class="label-conf">
+                            <input type="checkbox" checked required>
+                            <span class="check"></span>
+                            З <a href="#" target="_blank">політикою конфіденційності</a> ознайомлений(а)
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <div class="popup-success">
+        <div class="center">
+            <h2>Дякуємо! 👏</h2>
+            <p>Дякуємо. Наш менеджер Вам зателефонує ближчим часом!</p>
+            
+            <div class="discount discount-max">
+                <b>Ваша знижка</b>
+                10%
+            </div>
+            
+            <h3>Ваші бонуси:</h3>
+            <div class="bonus-items">
+                <div class="bonus-item">
+                    <div class="bonus-item__img" style="background-image: url(img/catalog.png);"></div>
+                    <b>Безкоштовний <br> дизайн-проект</b>
+                </div>
+                <div class="bonus-item">
+                    <div class="bonus-item__img" style="background-image: url(img/price.png);"></div>
+                    <b>Безкоштовний <br> виїзд замірника</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
